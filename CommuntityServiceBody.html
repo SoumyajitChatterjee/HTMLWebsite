@@ -1,0 +1,64 @@
+<html>
+    <body>
+         <div>
+             <h1 align = "Center">Sign Up</h1>
+         </div>
+          <div align = "Center" id = "form">
+             <br>
+               Username
+              <input type = "text">
+             </br>
+             <br>
+              Password
+              <input type = "text">
+             </br> 
+             <br>
+              Retype Password
+              <input type = "text">
+             </br>
+            <br>
+               Organization<input type = "checkbox">
+               Member<input type = "checkbox">
+           </br>
+           <br>
+           Date Of Birth
+               <select name = Month>
+                    <script language = "javascript" type = "text/javascript">
+                        for(var i = 1; i <= 12; i++) {
+                            document.write("<option>"+i+"</option>");
+                        }
+                   </script>
+               </select>
+               <select name = Day>
+                   <script language = "javascript" type = "text/javascript">
+                        for(var d = 1; d <= 31; d++) {
+                            document.write("<option>"+d+"</option>");
+                        }
+                   </script>
+               </select>
+               <select name = Year>
+                   <script language = "javascript" type = "text/javascript">
+                        for(var c = 1945; c <= 2008; c++) {
+                            document.write("<option>"+c+"</option>");
+                        }
+                   </script>
+               </select>
+           </br>
+           <br>
+              Address<input type = "text">
+           </br>
+           <br>
+            Phone Number<input type = "text">
+           </br>
+           <br>
+               <a href = "https://www.gap.com/"> Terms Of Service</a>
+               <h4>Yes I have read the terms of Service. I wish to continue<h4>
+              Yes<input type = "CheckBox">
+              No<input type = "CheckBox">
+           </br>
+           <br>
+               <input type = "button" value = "Submit">
+           </br>
+       </div>
+    </body>
+</html>
